@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+header {
+    height: 50px;
+    grid-column: 1 / span 2;
+    background-color: aqua;
+}
+
+.topic-title {
+    height: 200px;
+    margin: 0 25%;
+    grid-column: 1 / span 2;
+    background-color: aquamarine;
+}
+
+aside {
+    background-color: brown;
+}
+
+main {
+    min-height: 500px;
+    margin-right: calc(100% / 3);
+    background-color: blueviolet;
+}
